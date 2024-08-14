@@ -15,7 +15,8 @@ import json
 
 load_dotenv(find_dotenv())
 project_id = os.getenv('PROJECT_ID')
-credentials = service_account.Credentials.from_service_account_file('aerobic-datum-429101-r4-59df87999b44.json')
+# add a google json key
+credentials = service_account.Credentials.from_service_account_file('XXX')
 vertexai.init(project=project_id, location='us-west1', credentials=credentials)
 from vertexai.language_models import TextEmbeddingModel
 embedding_model = TextEmbeddingModel.from_pretrained("textembedding-gecko@003")

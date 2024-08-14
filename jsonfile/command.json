@@ -1,0 +1,32 @@
+{
+	"blocks": [
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Hey Team! :wave:"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "I am DockBot🤖! I am a slack bot created by @Alhwyn. Here are a few things I can do!"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "• Thing 1 \n • Thing 2 \n • Thing 3"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "If theres any bugs or I am misbehaving please let me know! A suggestion of a feature that DockBot should do will also be fantastic! 🥳"
+			}
+		}
+	]
+}

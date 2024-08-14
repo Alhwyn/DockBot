@@ -1,0 +1,82 @@
+{
+	"type": "modal",
+	"callback_id": "pricing_view_id",
+	"title": {
+		"type": "plain_text",
+		"text": "DockBot",
+		"emoji": true
+	},
+	"submit": {
+		"type": "plain_text",
+		"text": "Okay",
+		"emoji": true
+	},
+	"close": {
+		"type": "plain_text",
+		"text": "Cancel",
+		"emoji": true
+	},
+	"blocks": [
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": "  Membership & Rental Pricing"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "rich_text",
+			"elements": [
+				{
+					"type": "rich_text_section",
+					"elements": [
+						{
+							"type": "text",
+							"text": "One-off fee",
+							"style": {
+								"italic": true
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Day Pass* - `$30` \n\nAccess during office hours \n(8:30am - 5pm, Monday through Friday)\n\n *5-day Flex Pack* - `$135` \n\n(8:30am - 5pm, Monday through Friday) \nValid for 6-months\n\n *10-day Flex Pack* - `$230` \n\n (8:30am - 5pm, Monday through Friday)\n Valid for 6-months"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "rich_text",
+			"elements": [
+				{
+					"type": "rich_text_section",
+					"elements": [
+						{
+							"type": "text",
+							"text": "Membership requires a Community Membership.",
+							"style": {
+								"italic": true
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Community Membership* \n\n Individual - `$20` per month or `$180` per year \n\n *Hot Desk Coworking* - `$225` per month \n\nAccess during office hours \n(8:30am - 5pm, Monday through Friday) \n 4 hours per week of free access to meeting space\n\n *24/7 Coworking* - `$325` per month \n\n4 hours per month of free access to meeting space\n\n *Dedictated Desk* - `$435` per month \n\n24/7 access, 6 hours per month of free access to \nmeeting space membership\n\n *Private Office* - `$895` per month\n\n24/7 access, includes 10 hours per month of free access to meeting space Membership"
+			}
+		}
+	]
+}

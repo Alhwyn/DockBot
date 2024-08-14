@@ -1,0 +1,25 @@
+{
+	"attachments": [
+		{
+			"blocks": [
+				{
+					"type": "section",
+					"text": {
+						"type": "mrkdwn",
+						"text": "🚨 *BUG OR SUGGESTION* 🚨"
+					}
+				},
+				{
+					"type": "divider"
+				},
+				{
+					"type": "section",
+					"text": {
+						"type": "mrkdwn",
+						"text": "None"
+					}
+				}
+			]
+		}
+	]
+}

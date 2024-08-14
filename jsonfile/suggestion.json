@@ -1,0 +1,48 @@
+{
+	"type": "modal",
+	"callback_id": "suggestion_id",
+	"submit": {
+		"type": "plain_text",
+		"text": "Submit",
+		"emoji": true
+	},
+	"close": {
+		"type": "plain_text",
+		"text": "Cancel",
+		"emoji": true
+	},
+	"title": {
+		"type": "plain_text",
+		"text": "DockBot | Suggestion",
+		"emoji": true
+	},
+	"blocks": [
+		{
+			"type": "section",
+			"text": {
+				"type": "plain_text",
+				"text": ":wave: Hello!\n\n Let me know if DockBot is incorrect with its output or \n a bug. Also, a suggestion for a feature would be great as well!\n\nyour feedback will be anomynous",
+				"emoji": true
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "input",
+			"label": {
+				"type": "plain_text",
+				"text": "Report your bug or add a suggestion",
+				"emoji": true
+			},
+			"element": {
+				"type": "plain_text_input",
+				"multiline": true
+			},
+			"optional": false
+		},
+		{
+			"type": "divider"
+		}
+	]
+}

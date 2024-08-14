@@ -1,0 +1,82 @@
+{
+	"title": {
+		"type": "plain_text",
+		"text": "DockBot Space Rentals",
+		"emoji": true
+	},
+	"submit": {
+		"type": "plain_text",
+		"text": "Okay",
+		"emoji": true
+	},
+	"type": "modal",
+	"callback_id": "pricing_view_id",
+	"close": {
+		"type": "plain_text",
+		"text": "Cancel",
+		"emoji": true
+	},
+	"blocks": [
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": " Space Rentals"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "rich_text",
+			"elements": [
+				{
+					"type": "rich_text_section",
+					"elements": [
+						{
+							"type": "text",
+							"text": "First Floor",
+							"style": {
+								"italic": true
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Anchor/Pier* \n\nFits up to 4-6 people\n `$35` per hour (Weekdays)\n`$40` per hour - `$225`/day (Weekends/after hours)\n\n *Fathom*\n\nFits up to 6-8 people\n`$40` per hour (Weekdays)\n`$45` per hour - `$260`/day (Weekends/after hours)\n\n *Harbour*\n\n Fits up to 18-30 people\n`$75` per hour (Weekdays)\n`$100` per hour - `$400`/day (Weekends/after ho "
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "rich_text",
+			"elements": [
+				{
+					"type": "rich_text_section",
+					"elements": [
+						{
+							"type": "text",
+							"text": "Third Floor",
+							"style": {
+								"italic": true
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Crow's Nest* \n\n Fit's up to 2-4 people\n`$20` per hour (Weekdays)\n `$30` per hour - `$190`/day (Weekends/after hours) \n\n *Bridge*\n\nFit's up to 6-8 people\n`$30` per hour - `$210`/day (Weekdays)\n `$40` per hour - `$240`/day (Weekends/after hours)\n\n *Port*\n\nFit's up to 12-20 people\n`$40` per hour - `$280`/day (Weekdays) \n`$50` per hour - `$310`/day (Weekends/after hours)\n\n *QuarterDeck* \n\nFit's up to 30-45 people\n`$75` per hour (Weekdays) \n`$100` per hour - `$400`/day (Weekends/after hours)\n\n"
+			}
+		}
+	]
+}

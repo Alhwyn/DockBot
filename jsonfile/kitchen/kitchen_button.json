@@ -1,0 +1,20 @@
+{
+	"blocks": [
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Make a Wish 🔮",
+						"emoji": true
+					},
+					"value": "click_me_123",
+					"action_id": "kitchen_id",
+					"style": "primary"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"callback_id": "kitchen_view",
+	"type": "modal",
+	"title": {
+		"type": "plain_text",
+		"text": "Kitchen Wishes ☕️",
+		"emoji": true
+	},
+	"submit": {
+		"type": "plain_text",
+		"text": "Submit",
+		"emoji": true
+	},
+	"close": {
+		"type": "plain_text",
+		"text": "Cancel",
+		"emoji": true
+	},
+	"blocks": [
+		{
+			"type": "divider"
+		},
+		{
+			"type": "input",
+			"element": {
+				"type": "plain_text_input",
+				"action_id": "plain_text_input-action"
+			},
+			"label": {
+				"type": "plain_text",
+				"text": "Add a Wish 🔮",
+				"emoji": true
+			}
+		}
+	]
+}

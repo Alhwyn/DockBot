@@ -1,0 +1,31 @@
+{
+	"type": "modal",
+	"callback_id": "doggo_view_id",
+	"title": {
+		"type": "plain_text",
+		"text": "My App",
+		"emoji": true
+	},
+	"submit": {
+		"type": "plain_text",
+		"text": "😱",
+		"emoji": true
+	},
+	"close": {
+		"type": "plain_text",
+		"text": "Cancel",
+		"emoji": true
+	},
+	"blocks": [
+		{
+			"type": "image",
+			"title": {
+				"type": "plain_text",
+				"text": "doggo",
+				"emoji": true
+			},
+			"image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzjbBC4cQAkJqKbY0J0WGjCjePeAHBpEPQV1_7Z1TWXHlcOHHi3Rx43pkNXrjZalHaZPg&usqp=CAU",
+			"alt_text": "delicious tacos"
+		}
+	]
+}

@@ -1,0 +1,83 @@
+{
+	"type": "modal",
+	"callback_id": "info_id",
+	"title": {
+		"type": "plain_text",
+		"text": "DockBot | Info",
+		"emoji": true
+	},
+	"submit": {
+		"type": "plain_text",
+		"text": "Thanks",
+		"emoji": true
+	},
+	"close": {
+		"type": "plain_text",
+		"text": "Cancel",
+		"emoji": true
+	},
+	"blocks": [
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": ":memo:  DockBot Info  :memo:"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": ":wave: | *Say Hello to DockBot* | :wave:"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "You can say hello to Dockbot my mentioning `@DockBot` and ask any question about anything!!! For example.\n\n- *@DockBot* Tell me about Unicorns?\n- *@DockBot* What are other synonyms for delicous?\n - *@DockBot* What is the Dockhand Program?\n\n :warning::bangbang: *If dockbot made a mistake let me know* :bangbang::warning:"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": ":computer: |  *COMMANDS*  | :computer: "
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "`/info` *will give you do the info of what DockBot can do*\n\n`/pricing` *DockBot will tell you the information of the membership and Rental Pricing* \n\n `/create-poll` *Create your own custom poll in the channel for the Dock community*\n\n`/space-rentals` *DockBot will tell you the information about the meeting rooms and space rentals. *\n\n`/suggestion` *let me know if there is a bug or suggest a feature*\n\n *Check them out yourself*: `/doggo`, "
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": ":bug: | *REPORT BUGS OR ADD SUGGESTIONS* | :bug:"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Let me know if their is any *problems* with DockBot `@Alhwyn`\n*Use the command* `/suggestion`  for a anonymous tip.",
+				"verbatim": false
+			}
+		},
+		{
+			"type": "divider"
+		}
+	]
+}

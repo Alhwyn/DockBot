@@ -1,0 +1,42 @@
+{
+    "ok": true,
+    "channel": "C078L19DQA0",
+    "ts": "1721292721.974279",
+    "message": {
+        "user": "U078B1724UW",
+        "type": "message",
+        "ts": "1721292721.974279",
+        "bot_id": "B078HKS2DDY",
+        "app_id": "A078W7M68HF",
+        "text": ":coffee: Kitchen Wishes :apple:",
+        "team": "T078HCZLV1R",
+        "bot_profile": {
+            "id": "B078HKS2DDY",
+            "app_id": "A078W7M68HF",
+            "name": "DockBot",
+            "icons": {
+                "image_36": "https://avatars.slack-edge.com/2024-07-03/7373439997586_268456175d9537746753_36.png",
+                "image_48": "https://avatars.slack-edge.com/2024-07-03/7373439997586_268456175d9537746753_48.png",
+                "image_72": "https://avatars.slack-edge.com/2024-07-03/7373439997586_268456175d9537746753_72.png"
+            },
+            "deleted": false,
+            "updated": 1720049016,
+            "team_id": "T078HCZLV1R"
+        },
+        "blocks": [
+            {
+                "type": "header",
+                "block_id": "OrQuz",
+                "text": {
+                    "type": "plain_text",
+                    "text": ":coffee: Kitchen Wishes :apple:",
+                    "emoji": true
+                }
+            },
+            {
+                "type": "divider",
+                "block_id": "5Teak"
+            }
+        ]
+    }
+}

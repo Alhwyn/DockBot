@@ -1,0 +1,35 @@
+{
+	"blocks": [
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Hi everyone! 👋* I'm DockBot, a Slackbot created by Alhwyn to help members and Dockhands with questions about coworking, memberships, and anything else you might have on your mind. Feel free to ask me anything! Ex: *@DockBot who is Colin?*"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Learn more about DockBot* please click here, \nor do `/info` in the channel. :sunglasses:"
+			},
+			"accessory": {
+				"type": "button",
+				"text": {
+					"type": "plain_text",
+					"text": "Click me!",
+					"emoji": true
+				},
+				"style": "primary",
+				"value": "click_me_123",
+				"action_id": "introduction-action"
+			}
+		},
+		{
+			"type": "divider"
+		}
+	]
+}
